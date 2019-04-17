@@ -1,0 +1,97 @@
+body{
+  background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+.nav{
+  width:100%;
+}
+.nav li{
+  width:25%;
+}
+.nav li a{
+  color:midnightblue;
+}
+.navbar{
+  margin-top:35px;
+  border-radius:0px;
+  position:fixed;
+  top:195px;
+  width:100%;
+  z-index:10;
+  background-color:#ffff00;
+  color:white;
+  border:none;
+  height:50px;
+}
+.btn{
+  border-radius:0px;
+  float:right;
+  margin:5px;
+  background-color:rgb(234,77,0);
+  color:white;
+  width:100px;
+  height:50px;
+  margin-top:40px;
+}
+.header img{
+  margin-top:15px;
+  margin-left:10px;
+  width:290px;
+  height:270px;
+}
+.header{
+  background-color:#67a36d;
+}
+video{
+  margin-top:100px;
+  margin-left:40px;
+}
+.container{
+  width:auto;
+  text-align:left;
+  align:center;
+  padding:8px;
+  border:1px solid;
+  margin-top:100px;
+  margin-left:5px;
+  font-family:candara;
+  font-size:medium;
+  background-color:#ff531a;
+  color:white;
+}
+footer{
+  height:100px;
+  text-align:center;
+  background-color: #ff9999;
+  color:white;
+}
+.form{
+  float:right;
+  margin-top:100px;
+  border:1px solid;
+  border-radius:2px;
+  padding:10px;
+  height:300px;
+  background-color:white;
+  width:400px;
+  margin-right:20px;
+}
+.jumbotron{
+  text-align:center;
+  height:300px;
+  margin-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+  background-color: #d1e0e0;
+}
+.jumbotron input[type=text]{
+  float:center;
+  width:40%;
+  font-family:comic-sans;
+}
+.jumbotron .btn{
+  float:center;
+  font-size:20px;
+  padding:6px 8px;
+  background-color:white;
+  color:black;
+}
