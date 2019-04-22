@@ -88,10 +88,28 @@ footer{
   width:40%;
   font-family:comic-sans;
 }
-.jumbotron .btn{
+.header .jumbotron .btn{
   float:center;
   font-size:20px;
   padding:6px 8px;
   background-color:white;
   color:black;
+}
+.header .jumbotron{
+  background-image:url('https://images.unsplash.com/photo-1553999284-3825010ad24e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ');
+  padding:20px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height:400px;
+  background-color: white;
+  height:500px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
